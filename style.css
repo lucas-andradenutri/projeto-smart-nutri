@@ -80,7 +80,7 @@ main{
 .conteudosecundario{
     padding: 70px;
     font-size: 20px;
-    background-color: #b9a89452;
+    background-color: #b9a8949d;
     text-align:center;
     height: 10px;
     border-radius: 20px;
@@ -90,7 +90,7 @@ main{
 }
 
 .botao{
-  background-color: rgba(1, 6, 9, 0.863); 
+  background-color: rgba(179, 72, 2, 0.863); 
   border: none;
   color: #f8f8f8;
   font-weight: bold;
@@ -113,7 +113,7 @@ main{
 footer{
     background-color: rgb(1, 6, 9);
     color: #fcfcfc;
-    padding: 15px;
+    padding: 21px;
     text-align: center;
     text-decoration: none;
 }
