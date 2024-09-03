@@ -80,7 +80,7 @@ main{
 }
 
 .botao{
-  background-color: rgb(1, 6, 9); 
+  background-color: rgba(1, 6, 9, 0.863); 
   border: none;
   color: #f8f8f8;
   font-weight: bold;
