@@ -12,13 +12,15 @@
 }
 
 body,html{
-    font-size: 1em;
-    font-family: "Montserrat", sans-serif;
-    background-color:  rgb(1, 6, 90); 
+    background-image: linear-gradient(to top, rgb(1, 6, 9),rgb(29,38, 45)); 
+    min-height: 100vh;
 }
-
+header{
+    background-image: linear-gradient(to top, rgb(1, 6, 9),rgb(29,38, 45));
+    text-align: center;
+}
 header > h1{
-   
+    font-family: "Montserrat", sans-serif;
     font-size: 5em;
     text-align: center;
     text-shadow: 1px 1px white;
@@ -37,9 +39,6 @@ header> p{
   
 }
 
-header{
-    background-image: linear-gradient(to top, rgb(1, 6, 9),rgb(29,38, 45));
-}
 
 nav{
     background-color: rgb(1, 6, 9); 
@@ -65,10 +64,11 @@ nav > a:hover {
 div.principal{
     background-image: url(imagens/img1nv.jpg);
     background-position: center center;
-    background-size: cover;
-    width: 1920px;
-    height: 667px;
-    
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+
 }
 
 main{
@@ -80,13 +80,13 @@ main{
 .conteudosecundario{
     padding: 70px;
     font-size: 20px;
-    background-color: #b9a8949d;
     text-align:center;
     height: 10px;
     border-radius: 20px;
     font-family: "Open Sans", sans-serif;
     padding-top: 20px;
-    
+    background-color: #b9a8949d;
+    display: inline-block;
 }
 
 .botao{
@@ -102,6 +102,7 @@ main{
   margin: 20px;
   cursor: pointer; 
   border-radius: 20px;
+  
   
 }
 
