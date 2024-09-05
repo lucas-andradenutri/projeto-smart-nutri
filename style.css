@@ -12,8 +12,8 @@
 }
 
 body,html{
-    background-image: linear-gradient(to top, rgb(1, 6, 9),rgb(29,38, 45)); 
-    min-height: 100vh;
+    background-image: linear-gradient(to top, rgb(1, 6, 9),rgb(29,38, 45));
+ 
 }
 header{
     background-image: linear-gradient(to top, rgb(1, 6, 9),rgb(29,38, 45));
@@ -35,8 +35,6 @@ header> p{
     color: #B9A894;
     font-family: "Open Sans", sans-serif;
     padding-bottom: 20px;
-
-  
 }
 
 
@@ -61,32 +59,30 @@ nav > a:hover {
     padding: 5px;
 }
 
-div.principal{
-    background-image: url(imagens/img1nv.jpg);
+
+
+main{
+    color: #fcfcfc;
+    text-align: center;
+    background-image: url(imagens/img1.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-size:cover;
     background-repeat: no-repeat;
     padding-top: 10px;
-
-}
-
-main{
-    color: #fcfcfc;
-    text-align: center;
+    height: 100vw;
     
 }
 
 .conteudosecundario{
-    padding: 70px;
-    font-size: 20px;
+    font-size: 30px;
     text-align:center;
-    height: 10px;
-    border-radius: 20px;
     font-family: "Open Sans", sans-serif;
-    padding-top: 20px;
-    background-color: #b9a8949d;
-    display: inline-block;
+    padding-top: 40px;
+    color:  rgb(1, 6, 9);
+    font-weight: bold;
+    text-shadow: 1px 1px#B9A894;
+     
 }
 
 .botao{
@@ -102,9 +98,9 @@ main{
   margin: 20px;
   cursor: pointer; 
   border-radius: 20px;
-  
-  
+
 }
+
 
 .botao:hover{
     background-color: #b9a894;
