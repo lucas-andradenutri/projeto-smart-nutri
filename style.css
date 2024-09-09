@@ -60,14 +60,10 @@ nav > a:hover {
     border-radius: 15%;
     padding: 5px;
 }
-
-span#burguer{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    display: block;
-    text-align: center; }
-
-
+body{
+    height: 100vw;
+    width: 100vh;
+}
 
 main{
     color: #fcfcfc;
